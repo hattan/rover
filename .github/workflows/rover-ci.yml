@@ -3,7 +3,7 @@ name: Build Rover ci images
 on: 
   workflow_dispatch:
     branches:
-      - ci
+      - symphony_ci
 
 jobs:
   build:
