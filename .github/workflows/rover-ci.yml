@@ -1,7 +1,9 @@
 name: Build Rover ci images
 
 on: 
-  workflow_dispatch
+  workflow_dispatch:
+    branches:
+      - ci
 
 jobs:
   build:
