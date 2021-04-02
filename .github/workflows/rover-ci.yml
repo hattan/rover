@@ -1,9 +1,10 @@
 name: Build Rover ci images
 
 on: 
-  workflow_dispatch:
+  workflow_dispatch:    
+  push:
     branches:
-      - symphony_ci
+      - symphony_integration      
 
 jobs:
   build:
